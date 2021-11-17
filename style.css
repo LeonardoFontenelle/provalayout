@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+header .logo{
+    position: relative;
+    max-width: 200px;
+    left: -100px;
+    top: -70px;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header ul li{
+    list-style: none;
+    display: flex;
+    margin-left: 30px;
+}
+header ul li a{
+    position: relative;
+    display: inline-block;
+    color: #660066;
+    text-decoration: none;
+  top: -10px;
+    right: 560px;
+}
+.numero p{
+    position: relative;
+    color:  #ff0066;
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    bottom: 673px;
+    left: 1250px;
+
+}
+.emcima p{
+    position: relative;
+    left: 1000px;
+    color:  black;
+}
+.lado p{
+    position: relative;
+    bottom: 22px;
+    left: 1100px;
+}
+.caixa{
+    position: relative;
+    left: 900px;
+    top:45px;
+    background-color:   #ccccb3;
+}
+.botao {
+    position: relative;
+    left: 950px;
+    top:45px;
+    background-color:  #ccccb3;
+}
+table{
+    position: relative;
+    margin: auto;
+    width: 500px;
+    top: -550px;
+    right: 600px;
+    background-color: gray;
+}
+.foto{
+    position: relative;
+    top: -850px;
+    left:600px;
+    
+}
+.foto img{
+    
+    border-radius: 20px;
+    width: 750px;
+    height: 550px;
+}
+.barrinha{
+    position: relative;
+    top: -700px;
+    background-color: #b30047;
+    margin: 5px;
+    color:white;
+    text-transform: uppercase;
+
+}
+.principal{
+    position: relative;
+    top:-650px;
+    left: 10px;
+}
+.principal img{
+    border-radius: 20px;
+    width: 350px;
+    height: 250px;
+}
+.foto1{
+    position: relative;
+    top: -900px;
+    left: 370px;
+}
+.foto1 p{
+    color: black;
+    font-size: 1.4em;
+}
+.russo{
+    position: relative;
+    top: -880px;
+    left: 370px;
+}
+.mini{
+    position: relative;
+    top: -850px;
+    left: 370px;
+}
+.parte1{
+    position: relative;
+    top: -820px;
+    left: 370px;
+    border-radius: 10px;
+    background-color: #cc66cc;
+}
+.ps5{
+    position: relative;
+    top:-1035px;
+    left: 650px;
+}
+.ps5 img{
+    border-radius: 20px;
+    width: 350px;
+    height: 250px; 
+}
+.foto2{
+    position: relative;
+    top: -1290px;
+    left: 1000px;
+}
+.foto2 p{
+    color: black;
+    font-size: 1.4em;
+}
+.russo2{
+    position: relative;
+    top: -1260px;
+    left: 1000px;
+}
+.mini2{
+    position: relative;
+    top: -1230px;
+    left: 1000px;
+}
+.parte2{
+    position: relative;
+    top: -1200px;
+    left: 1005px;
+    border-radius: 10px;
+    background-color: #cc66cc;
+}
+.colher{
+    position: relative;
+    top:-1100px;
+    left: 10px; 
+}
+.colher img{
+    border-radius: 20px;
+    width: 350px;
+    height: 250px; 
+}
+.foto3{
+    position: relative;
+    top: -1330px;
+    left: 370px;
+}
+.foto3 p{
+    color: black;
+    font-size: 1.4em;
+}
+.russo3{
+    position: relative;
+    top: -1320px;
+    left: 370px;
+}
+.mini3{
+    position: relative;
+    top: -1300px;
+    left: 370px;
+}
+.parte3{
+    position: relative;
+    top: -1260px;
+    left: 375px;
+    border-radius: 10px;
+    background-color: #cc66cc;
+}
+.controle{
+    position: relative;
+    top:-1470px;
+    left: 650px;
+}
+.controle img{
+    border-radius: 20px;
+    width: 350px;
+    height: 250px; 
+}
+.foto4{
+    position: relative;
+    top: -1720px;
+    left: 1010px;
+}
+.foto4 p{
+    color: black;
+    font-size: 1.4em;
+}
+.russo4{
+    position: relative;
+    top: -1700px;
+    left: 1010px;
+}
+.mini4{
+    position: relative;
+    top: -1670px;
+    left: 1010px;
+}
+.parte4{
+    position: relative;
+    top: -1630px;
+    left: 1010px;
+    border-radius: 10px;
+    background-color: #cc66cc;
+}
+.anuncio{
+    position: relative;
+    top:-1470px;
+    left: 450px;
+}
+.footer{
+    position: relative;
+    top: -1400px;
+}
+.footer-bottom{
+    background-color: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+.footer-bottom p{
+    font-size: 14px;
+    text-transform: capitalize;
+    color: blanchedalmond;
+}
